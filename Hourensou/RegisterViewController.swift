@@ -23,6 +23,7 @@ class RegisterViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         for i in 100...200 {
             heightArray.append(i)
         }
+        
         pickerView.delegate = self
         pickerView.dataSource = self
     }
